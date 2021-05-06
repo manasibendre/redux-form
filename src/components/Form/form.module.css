@@ -1,0 +1,39 @@
+.Container {
+  background-color: #e1ebee;
+  display: flex;
+  border-radius: 16px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  top: 10%;
+  margin-left: 2%;
+  box-shadow: 0px 6px 6px #00000012;
+  padding-bottom: 2em;
+  width: 96%;
+  min-height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.Org {
+  font-size: 1.05em;
+  font-weight: bold;
+  height: 8.5em;
+  width: 8.5em;
+  margin: 2em;
+  background: linear-gradient(to bottom, white 0, #b0c4de 100%);
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 16px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: white;
+  text-transform: uppercase;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.Org:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
